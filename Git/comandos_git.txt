@@ -7,7 +7,7 @@ git revert hash -> reverte o commit
 
 /////
 
-git tag -a nome -> cria uma tag para o commit
+git tag -a nome -m "mensagem" -> cria uma tag para o commit
 
 git diff
 git diff hash-antigo..hash-atual -> mostra as diferenças entre os commits
