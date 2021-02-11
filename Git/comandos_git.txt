@@ -1,3 +1,23 @@
+desfazer coisas
+
+git checkout -- arquivo
+git checkout hash-do-commit
+git reset
+git revert hash -> reverte o commit
+
+/////
+
+git tag -a nome -> cria uma tag para o commit
+
+git diff
+git diff hash-antigo..hash-atual -> mostra as diferenças entre os commits
+
+git stash -> salva temporariamente
+git stash list
+git stash apply
+git stash drop
+git stash apply + git stash drop = git stash pop
+
 git config --list -> informações do usuário
 git config --global user.name "Seu nome aqui"
 git config --global user.email "seu@email.aqui"
