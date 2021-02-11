@@ -7,3 +7,12 @@ git status -> status
 git add -> add arquivo, add . todos os arquivos
 git commit -m "descrição"
 
+git log -> histórico de modificações
+git log --oneline -> resumo 
+git log -p -> expandido
+https://devhints.io/git-log -> git log cheatsheet 
+
+
+HEAD: Estado atual do nosso código, ou seja, onde o Git nos colocou
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
