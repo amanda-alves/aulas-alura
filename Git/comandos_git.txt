@@ -2,8 +2,18 @@ git config --list -> informações do usuário
 git config --global user.name "Seu nome aqui"
 git config --global user.email "seu@email.aqui"
 
+
 git init -> cria um repositório 
+git init --bare -> repositório central, não é possível editar arquivos
+
+git remote -> lista todos os repositórios remotos
+git remote add nome endereço -> adiciona um repositório remoto
+git remote -v -> mostra endereço do repossitório local
+
+git clone endereço-do-servidor nome-da-pasta -> clona o repositório na máquina local
+
 git status -> status
+
 git add -> add arquivo, add . todos os arquivos
 git commit -m "descrição"
 
