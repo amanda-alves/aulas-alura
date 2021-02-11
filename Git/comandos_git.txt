@@ -2,20 +2,27 @@ git config --list -> informações do usuário
 git config --global user.name "Seu nome aqui"
 git config --global user.email "seu@email.aqui"
 
+git status -> status
+
+git branch nome -> cria nova branch
+git checkout nome-branch -> vai para a branch
 
 git init -> cria um repositório 
 git init --bare -> repositório central, não é possível editar arquivos
 
 git remote -> lista todos os repositórios remotos
 git remote add nome endereço -> adiciona um repositório remoto
+git remote rename nome novo-nome
 git remote -v -> mostra endereço do repossitório local
+git remote rm nome-repositório -> deleta o repositório
 
 git clone endereço-do-servidor nome-da-pasta -> clona o repositório na máquina local
 
-git status -> status
-
 git add -> add arquivo, add . todos os arquivos
 git commit -m "descrição"
+
+git push nome-do-repositorio nome-da-branch -> envia as modificações para o repositório
+git pull nome-do-repositorio nome-da-branch  -> baixa o repositório
 
 git log -> histórico de modificações
 git log --oneline -> resumo 
