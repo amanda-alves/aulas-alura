@@ -1,0 +1,3 @@
+git init -> cria um repositório 
+git status -> status
+git add -> add arquivo, add . todos os arquivos
