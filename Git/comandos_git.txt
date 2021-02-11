@@ -6,6 +6,7 @@ git status -> status
 
 git branch nome -> cria nova branch
 git checkout nome-branch -> vai para a branch
+git checkout -b nome-branch -> cria nova branch e vai pra ela
 
 git init -> cria um repositório 
 git init --bare -> repositório central, não é possível editar arquivos
