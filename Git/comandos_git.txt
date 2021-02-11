@@ -1,3 +1,9 @@
+git config --list -> informações do usuário
+git config --global user.name "Seu nome aqui"
+git config --global user.email "seu@email.aqui"
+
 git init -> cria um repositório 
 git status -> status
 git add -> add arquivo, add . todos os arquivos
+git commit -m "descrição"
+
